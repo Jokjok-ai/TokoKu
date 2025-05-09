@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
                 'email' => 'admin1@tokoku.com',
                 'password' => Hash::make('password123'),
                 'phone' => '081234567890',
+                'role'  => 'admin',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -29,6 +30,7 @@ class DatabaseSeeder extends Seeder
                 'email' => 'kasir1@tokoku.com',
                 'password' => Hash::make('password123'),
                 'phone' => '082345678901',
+                'role'  => 'admin',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ]

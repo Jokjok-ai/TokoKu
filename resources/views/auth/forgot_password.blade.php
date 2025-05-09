@@ -20,8 +20,7 @@
             <div class="card shadow-lg p-4">
                 <div class="text-center mb-4">
                     <i class="fas fa-user-circle fa-4x text-primary mb-3"></i>
-                    <h3 class="fw-bold">Welcome Back</h3>
-                    <p class="text-muted">Please login to continue</p>
+                    <p class="text-muted">Foogot Password</p>
                 </div>
 
                 @if ($errors->any())
